@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./abstract-blur-blue-pink-gradient-background-design_53876-136695.png) no-repeat top center/cover
+}
+body * {
+    font-family: "Gentium Plus", serif;
+    color: black;
+}
+#container {
+    width: 360px;
+    border: 3px solid rgb(0, 110, 255);
+    margin: 37px auto 0px auto;
+    border-radius: 20px;
+    background: rgba(150, 177, 226, 0.274);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    padding: 0 24px;
+}
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+#profile img {
+        width: 112px;
+}
+
+#profile p {
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 8px ;
+}
+p {
+    text-align: center;
+}
+#lista1 {
+    text-align: start;
+}
+#email {
+    text-align: start;
+    font-size: smaller;
+    margin: 0px;
+}
+
+ul {
+    margin-top: 12px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+ul li a{
+    border: 2px solid rgb(0, 47, 255);
+    display: flex; /* deixa o conteúdo dentro da caixa de maneira mais flexível */
+    align-items: center; /* centraliza a partir do meio da caixa pequena, no caso, a "li" */
+    justify-content: center; /* centraliza a partir do centro da lista inteira, no caso, a "ul" */
+    padding: 12px 21px; /* preenchimento das linhas de link: "a" dentro da "li" */
+    background: rgba(224, 224, 224, 0.521) ;
+    border: solid rgb(43, 64, 156);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 550;
+    transition: background 0.6s;
+}
+#arroba {
+    font-size: larger;
+}
+/* pseudo-selector */
+ul li a:hover {
+    background-color: rgba(183, 170, 214, 0.733) ;
+    border: 2px solid rgb(0, 47, 255);
+}
