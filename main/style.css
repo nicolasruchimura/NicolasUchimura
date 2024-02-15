@@ -10,6 +10,7 @@ body {
 body * {
     font-family: "Gentium Plus", serif;
     color: black;
+    height: 100% vh;
 }
 #container {
     width: 100%;
