@@ -1,6 +1,6 @@
 <h1 align="center">NicolasUchimura</h1>
 
-<h5 align="center">O Projeto se encontra em "main" -> "projeto.html"</h5>
+<h5 align="center">O Projeto se encontra em "main" -> "projeto.html" / "style.css"</h5>
 
 <p align="center">
 Projeto desenvolvido por Nicolas Uchimura, com bases na plataforma da Rocketseat
