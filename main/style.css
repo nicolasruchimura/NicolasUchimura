@@ -79,3 +79,7 @@ ul li a:hover {
     background-color: rgba(183, 170, 214, 0.733) ;
     border: 2px solid rgb(0, 47, 255);
 }
+#descrição {
+    font-size: medium;
+    text-decoration:solid;
+}
