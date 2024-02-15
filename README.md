@@ -28,7 +28,6 @@ Projeto desenvolvido por Nicolas Uchimura, com bases na plataforma da Rocketseat
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- JavaScript
 - Git e Github
 - Figma
 
